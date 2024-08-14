@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "TabSortPro",
+  "version": "1.0",
+  "description": "An extension that uniquely sorts your browser tabs based on title or URL. It also offers the ability to prioritize sorting by specific strings, keeping your important tabs at your fingertips.",
+  "permissions": ["tabs","storage"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "TabSortPro",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
